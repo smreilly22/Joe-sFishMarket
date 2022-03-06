@@ -1,0 +1,259 @@
+/*Common Elements*/
+body{
+    font-size: 67.5;
+    font-family:Arial, Helvetica, sans-serif;
+    background: skyblue url("Images/1420170.jpg") no-repeat fixed top center;
+    padding: 0;
+    margin: 0;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+
+
+
+
+}
+
+h1{
+    color: red;
+    font-size: 2.0em;
+    margin: 0.5em 0 0.5em 0;
+    padding: 0;
+}
+
+h2{
+    color: black;
+    font-size: 1.7em;
+    padding : 0px;
+    margin : 0.5em 0 0.35em 0;
+}
+
+p{
+    font-size: 1.2em;
+    line-height: 1.4;
+    color: black;
+    padding: 0px;
+    margin: 0px 0.5em 0.75em 0px;
+}
+ol{
+    font-size: 1.2em;
+    margin: 0 0 0 1.0em;
+    padding: 0 0 0 1.0em;
+}
+ol li{
+    margin: 0;
+    padding: 0 0 0.2em;
+}
+a, a:visited{
+    color: #C64322;
+}
+
+a:hover{
+    color: #333;
+}
+
+hr{
+    padding: 0;
+    margin: 1.5em 1.5em 0.75em 0.5em
+}
+.contentWrapper{
+    margin: 0 auto;
+    max-width: 1170px;
+    padding: 0 3.0em;
+}
+.left{
+    float: left;
+}
+.right{
+    float:right;
+}
+header{
+    padding: 2.5em 0 0.5em;
+    margin: 0 0 2.0em;
+    background: blue url("Images/BannerImage.jpg");
+}
+header h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#0aa8f1;
+    font-size: 7.5em;
+    letter-spacing: -0.025em;
+    margin: 0;
+    text-shadow: 1px 10px 0 #f32c09; 
+}
+
+/*Header*/
+/*Nav Bars*/
+
+nav{
+    color:#000;
+    font-size: 1.7em;
+    letter-spacing: 0.04em;
+    padding: 1.0em 1.0em 0.5em;
+    margin: 1.0em 0;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+nav li{
+    display: inline-block;
+    margin: 0;
+}
+nav li a, nav li a:visited{
+    text-decoration: none;
+    color: #080808;
+    padding: 0.3em 0.6em;
+}
+nav li a:hover{
+    color: #C64322;
+    background-color: rgba(252,251,243,00.75em);
+}
+nav#utilityMenu{
+    float: right;
+    margin: -1.5em 0 0 0;
+    padding: 0.35em;
+    background-color:aqua;
+    height: 1.3em;
+}
+nav#utilityMenu li{
+    padding: 0 0.25em 0 0.2em;
+    vertical-align: middle;
+}
+nav#utilityMenu ul li.acctNav a, nav#utilityMenu ul li.acctNav a:visited{
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  height: 1.3em;
+  padding: 0.5em;
+  margin: -0.4em 0 0 0;
+  font-size: 0.8em;  
+}
+nav#utlityMenu ul li.acctNav a:hover{
+    background-color: rgba(252,251,243,00.7);
+    color: #C64322;
+}
+nav#utilityMenu li a, nav#utlityMenu li a:visited {padding: 0;}
+nav#utilityMenu li a:hover { background-color: transparent;}
+nav#utilityMenu ul li input#search{
+    vertical-align: middle;
+    margin: 0 0 0 1.0em;
+}
+nav#utilityMenu ul li.acctNav ::before, nav#utilityMenu ul li input#search ::before {
+    
+    color: #FCFBE6;
+}
+#googlePlus{
+    margin-top: 9px;
+}
+
+/*Sidebar Section*/
+
+section#sidebar{
+    width: 238px;
+    float: right;
+    position: relative;
+    display: block;
+    background-color: #fff;
+    margin: 1.5em 0 3.0em 1.5em;
+    padding: 1.7em 0.5em 2.0em 1.7em;
+    border-left: #2BA967 solid 5px;
+}
+#sardines{
+    width: 200px;
+    height: 200px;
+}
+#catFishTwo{
+    width: 200px;
+    height: 200px;
+}
+section #main{
+    background-color: rgba(252,251,243,00.7);
+    margin: 0 0 2.0em;
+    padding: 1.5em 0 2.0em 1.5em;
+    display: inline-block;
+    border-radius: 2em;
+    box-shadow: 1px 1px 5px #777;
+}
+
+section div.panel{
+    float: left;
+    position: relative;
+    width: 250px;
+    flex: 0 0 50px;
+    margin: 0 1.5em 2.0em 0.5em;
+    padding: 1.0em;
+    background-color: #fff;
+    border: #ccc solid 1px;
+    border-radius: 0.6em;
+}
+section div.panel img.fishType{
+    width: 75%;
+}
+#tunaPanel{
+4
+    height: 220px;
+}
+#tuna{
+    width:180px;
+    height : 120px;
+}
+
+#halibut{
+    width: 180px;
+    height: 120px;
+}
+#catFish{
+    width:180px;
+    height: 120px;
+}
+#salmon{
+    width: 183px;
+    height:120px;
+}
+#swordFish{
+    width: 183px;
+    height: 120px;
+}
+#shark{
+    width: 183px;
+    height: 120px;
+}
+/*Main Section*/
+/*Footer*/
+footer{
+    background-color: #40362f;
+    height: 70px;
+    font-size: 1.2em;
+    color: #fff;
+    text-align: center;
+    padding: 1.5em 2.0em;
+
+}
+
+footer ul#menuFooter{
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 0 0.6em;
+    padding: 0;
+}
+
+footer ul li ::before{
+    content: "|";
+    padding-right: 0.7em;
+}
+footer a, footer a:visited{
+    color: #fff;
+    text-decoration: none;
+
+}
+footer a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+div.clear{
+    clear:both;
+    font-size: 1%;
+}
